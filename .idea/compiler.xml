@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="crms-apportion-contract_main" target="1.8" />
+      <module name="crms-apportion-contract_test" target="1.8" />
+      <module name="crms-apportion-service_main" target="1.8" />
+      <module name="crms-apportion-service_test" target="1.8" />
+      <module name="crms-apportion-webapi_main" target="1.8" />
+      <module name="crms-apportion-webapi_test" target="1.8" />
+      <module name="crms-apportion_main" target="1.8" />
+      <module name="crms-apportion_test" target="1.8" />
+      <module name="crms-backend_main" target="1.8" />
+      <module name="crms-backend_test" target="1.8" />
+      <module name="crms-common_main" target="1.8" />
+      <module name="crms-common_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

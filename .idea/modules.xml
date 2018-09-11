@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/crms-apportion.iml" filepath="$PROJECT_DIR$/.idea/modules/crms-apportion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/crms-apportion-contract/crms-apportion-contract.iml" filepath="$PROJECT_DIR$/.idea/modules/crms-apportion-contract/crms-apportion-contract.iml" group="crms-apportion-contract" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/crms-apportion-contract/crms-apportion-contract_main.iml" filepath="$PROJECT_DIR$/.idea/modules/crms-apportion-contract/crms-apportion-contract_main.iml" group="crms-apportion-contract" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/crms-apportion-contract/crms-apportion-contract_test.iml" filepath="$PROJECT_DIR$/.idea/modules/crms-apportion-contract/crms-apportion-contract_test.iml" group="crms-apportion-contract" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/crms-apportion-service/crms-apportion-service.iml" filepath="$PROJECT_DIR$/.idea/modules/crms-apportion-service/crms-apportion-service.iml" group="crms-apportion-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/crms-apportion-service/crms-apportion-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/crms-apportion-service/crms-apportion-service_main.iml" group="crms-apportion-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/crms-apportion-service/crms-apportion-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/crms-apportion-service/crms-apportion-service_test.iml" group="crms-apportion-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/crms-apportion-webapi/crms-apportion-webapi.iml" filepath="$PROJECT_DIR$/.idea/modules/crms-apportion-webapi/crms-apportion-webapi.iml" group="crms-apportion-webapi" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/crms-apportion-webapi/crms-apportion-webapi_main.iml" filepath="$PROJECT_DIR$/.idea/modules/crms-apportion-webapi/crms-apportion-webapi_main.iml" group="crms-apportion-webapi" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/crms-apportion-webapi/crms-apportion-webapi_test.iml" filepath="$PROJECT_DIR$/.idea/modules/crms-apportion-webapi/crms-apportion-webapi_test.iml" group="crms-apportion-webapi" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/crms-apportion_main.iml" filepath="$PROJECT_DIR$/.idea/modules/crms-apportion_main.iml" group="crms-apportion" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/crms-apportion_test.iml" filepath="$PROJECT_DIR$/.idea/modules/crms-apportion_test.iml" group="crms-apportion" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/crms-backend/crms-backend.iml" filepath="$PROJECT_DIR$/.idea/modules/crms-backend/crms-backend.iml" group="crms-backend" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/crms-backend/crms-backend_main.iml" filepath="$PROJECT_DIR$/.idea/modules/crms-backend/crms-backend_main.iml" group="crms-backend" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/crms-backend/crms-backend_test.iml" filepath="$PROJECT_DIR$/.idea/modules/crms-backend/crms-backend_test.iml" group="crms-backend" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/crms-common/crms-common.iml" filepath="$PROJECT_DIR$/.idea/modules/crms-common/crms-common.iml" group="crms-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/crms-common/crms-common_main.iml" filepath="$PROJECT_DIR$/.idea/modules/crms-common/crms-common_main.iml" group="crms-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/crms-common/crms-common_test.iml" filepath="$PROJECT_DIR$/.idea/modules/crms-common/crms-common_test.iml" group="crms-common" />
+    </modules>
+  </component>
+</project>

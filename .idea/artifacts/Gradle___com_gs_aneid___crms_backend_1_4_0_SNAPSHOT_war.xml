@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Gradle : com.gs.aneid : crms-backend-1.4.0-SNAPSHOT.war">
+    <output-path>$PROJECT_DIR$/crms-backend/build/libs</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$" />
+    </properties>
+    <root id="archive" name="crms-backend-1.4.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Gradle : com.gs.aneid : crms-backend-1.4.0-SNAPSHOT.war (exploded)" />
+    </root>
+  </artifact>
+</component>

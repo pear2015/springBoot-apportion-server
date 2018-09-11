@@ -1,0 +1,40 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Gradle : com.gs.aneid : crms-backend-1.4.0-SNAPSHOT.war (exploded)">
+    <output-path>$PROJECT_DIR$/crms-backend/build/libs/exploded/crms-backend-1.4.0-SNAPSHOT.war</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$">
+        <manifest>TWFuaWZlc3QtVmVyc2lvbjogMS4wDQpJbXBsZW1lbnRhdGlvbi1UaXRsZTogY3Jtcy1iYWNrZW5kDQpJbXBsZW1lbnRhdGlvbi1WZXJzaW9uOiAxLjQuMC1TTkFQU0hPVA0KQnVpbHQtQnk6IFBFQVINCkJ1aWxkLVRpbWU6IDIwMTgtMDctMDUgMTc6MzY6MDUNClRvb2w6IEdyYWRsZSAzLjIuMQ0KQ3JlYXRlZC1CeTogMS44LjBfMTMxIChPcmFjbGUgQ29ycG9yYXRpb24gMjUuMTMxLWIxMSkNCkltcGxlbWVudGF0aW9uLVZlbmRvcjogR3NhZmV0eQ0KDQo=</manifest>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/crms-backend/build/libs/exploded/crms-backend-1.4.0-SNAPSHOT.war/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="crms-backend_main/web/Web Gradle : crms-backend-1.4.0-SNAPSHOT.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="crms-backend_main" />
+          <element id="dir-copy" path="$PROJECT_DIR$/crms-backend/build/resources/main" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="com.gs.aneid-crms-apportion-contract-1.4.0-SNAPSHOT.jar">
+            <element id="module-output" name="crms-apportion-contract_main" />
+            <element id="dir-copy" path="$PROJECT_DIR$/crms-apportion-contract/build/resources/main" />
+          </element>
+          <element id="archive" name="com.gs.aneid-crms-common-1.4.0-SNAPSHOT.jar">
+            <element id="module-output" name="crms-common_main" />
+            <element id="dir-copy" path="$PROJECT_DIR$/crms-common/build/resources/main" />
+          </element>
+          <element id="archive" name="com.gs.aneid-crms-apportion-service-1.4.0-SNAPSHOT.jar">
+            <element id="module-output" name="crms-apportion-service_main" />
+            <element id="dir-copy" path="$PROJECT_DIR$/crms-apportion-service/build/resources/main" />
+          </element>
+          <element id="archive" name="com.gs.aneid-crms-apportion-webapi-1.4.0-SNAPSHOT.jar">
+            <element id="module-output" name="crms-apportion-webapi_main" />
+            <element id="dir-copy" path="$PROJECT_DIR$/crms-apportion-webapi/build/resources/main" />
+          </element>
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
