@@ -1,0 +1,37 @@
+# -----------------application:configs--------------------------
+# 1.spring configs (db...)
+# 2.app configs
+# 3.log configs
+# 4.common configs
+# ---------------------------------------------------------------
+server:
+  port: 8090
+# log配置
+logging:
+  config: classpath:logback.xml
+
+# 种子工程扩展配置
+xseed:
+  url1: http://localhost:8666/test1
+  url2: http://localhost:8666/test2
+
+# app相关配置
+language: en_US
+service:
+   crimeServiceApi: http://172.18.8.51:7080/api/v1   #犯罪基地址
+   analystFreeList: /analysis/post                   #无申请列表分析员
+   allWaitApportionUrl: /waitApportion/get          #等待分派列表
+   deleteApportionUrl: /waitApportion/delete         #删除已分配列表
+   socketServiceApi: http://172.18.24.140:8181/socket-server/api/v1  #socket基地址
+   onlineUserList: /socket/getAll                    #socket在线列表
+   workFlowServiceApi: http://172.18.8.51:8066/api/v1   #工作流基地址
+   workFlowAnalystAssign: /process/active/analyst    #分析流程激活
+   workFlowAuditAssign: /process/active              #审核流程激活
+auditor:
+  waiteAuditCount: 5
+domainPackagesToScan: com.gs.crms.apportion.service.entity
+
+
+
+
+

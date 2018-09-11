@@ -1,0 +1,19 @@
+group 'com.gs.aneid'
+
+archivesBaseName = 'crms-backend'
+
+
+configurations {
+    //每次build时检查更新
+    all { resolutionStrategy.cacheChangingModulesFor(0, "seconds") }
+}
+
+dependencies{
+    // 依赖模块
+    compile project(":crms-common")
+    compile project(":crms-apportion-webapi")
+    compile project(":crms-apportion-service")
+}
+apply from: "../scripts/gradle/publish.gradle"
+apply from: "../scripts/gradle/warbuild.gradle"
+

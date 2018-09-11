@@ -1,0 +1,22 @@
+group 'com.gs.aneid'
+archivesBaseName = 'crms-apportion-webapi'
+
+apply from: "../scripts/gradle/publish.gradle"
+
+configurations {
+    //每次build时检查更新
+    all { resolutionStrategy.cacheChangingModulesFor(0, "seconds") }
+}
+
+
+dependencies{
+    // 依赖模块
+    compile project(":crms-common")
+    compile project(":crms-apportion-contract")
+    compile project(":crms-apportion-service")
+
+}
+
+//bootRepackage{
+//    enabled = false
+//}

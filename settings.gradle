@@ -1,0 +1,8 @@
+rootProject.name = 'crms-apportion'
+
+include 'crms-backend',
+        'crms-common',
+        'crms-apportion-contract',
+        'crms-apportion-service',
+        'crms-apportion-webapi'
+
